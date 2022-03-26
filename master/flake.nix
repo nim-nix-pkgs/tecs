@@ -11,6 +11,7 @@
   inputs.src-tecs-master.ref   = "refs/heads/master";
   inputs.src-tecs-master.owner = "Timofffee";
   inputs.src-tecs-master.repo  = "tecs.nim";
+  inputs.src-tecs-master.dir   = "";
   inputs.src-tecs-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
