@@ -11,7 +11,6 @@
   inputs.src-tecs-v0_1.ref   = "refs/tags/v0.1";
   inputs.src-tecs-v0_1.owner = "Timofffee";
   inputs.src-tecs-v0_1.repo  = "tecs.nim";
-  inputs.src-tecs-v0_1.dir   = "";
   inputs.src-tecs-v0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
